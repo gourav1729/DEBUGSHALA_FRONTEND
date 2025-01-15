@@ -1,0 +1,214 @@
+01)console.log()
+
+->JS KO RUN KARNE K LIYE HUMKO USKA RUN TIME ENVIROMENT CHAIYE HOTA HAI. 
+->CHROME -> V8 ENGINE 
+->NODE JS 
+
+
+02)LINKING JS FILE 
+
+
+
+03)TEMPLATE LITERALS :
+
+let name1 = "Manas"
+let nam2 = 'Ishan'
+let mark1 = 90
+let mark2 = 80
+
+output : ""Manas"" AND  ''Ishan' MARKS ARE 90 AND 80. ALSO  PRINT THIS PART ""''""
+
+{ ` ""Manas"" AND  ''Ishan' MARKS ARE ${mark1} AND ${mark2}. ALSO  PRINT THIS PART ""''  ''""  ` }
+
+04)OPERATORS IN JS 
+
+05)COMPARISON OPERATORS
+1)==
+2)>=
+3)>
+4)<
+5)!=
+6)<=
+7)===
+
+console.log(null > 0)    //
+console.log(null == 0)   //
+console.log(null >= 0)   //
+
+/*
+STACKOVER-FLOW 
+
+Mathematically, that’s strange. The last result states that "null is greater than or equal to zero", so in one of the comparisons above it must be true, but they are both false.
+
+The reason is that an equality check == and comparisons > < >= <= work differently. Comparisons convert null to a number, treating it as 0. That’s why (3) null >= 0 is true and (1) null > 0 is false.
+
+On the other hand, the equality check == for undefined and null is defined such that, without any conversions, they equal each other and don’t equal anything else. That’s why (2) null == 0 is false.
+
+*/
+
+
+/*
+IMPORTANT NOTE : The reason is that an equality check == and comparisons > < >= <= work differently .
+Comparison convert null to a number, treating it as 0.
+That's why(3) null >= 0 is true and (1) null > 0 is false.
+*/
+
+
+
+06)COMPARISON FOR NON-NUMBERS
+
+07)CONDITIONAL STATEMENTS 
+
+08)IF STATEMENT
+
+->some code before it
+
+if(some codition){
+
+  //do something
+}
+
+09)ELSE-IF 
+
+if(some codition){
+
+  //do something
+}else if( some codition){
+
+        //do something
+}
+
+
+10)ELSE 
+
+11)PRACTISE QUESTIONS
+
+
+
+12)NESTED IF-ELSE
+
+if(){
+  if(){
+
+  }
+}else if(){
+
+  if(){
+
+
+  }
+}
+
+//N1 = 10
+  N2 = 20
+  N3 = 30
+
+if(N1<N2 && N1<N3){
+
+  if(N2<N3){
+    console.LOG(N1, N2 ,N3)
+  }else if(N2>N3){
+     console.LOG(N1, N3 ,N2)
+
+  }
+}else if (N2<N1 && N2<N3){
+
+  if(N1<N3){
+    console.LOG(N2, N1 ,N3)
+  }else if(N1>N3){
+     console.LOG(N2, N3 ,N1)
+}}else if(N3<N1 && N3<N2){
+
+  if(N1<N2){
+    console.LOG(N3, N1 ,N2)
+  }else if(N1>N2){
+     console.LOG(N3, N2 ,N1)
+}}
+
+_ _ _ _ 
+
+2
+if()
+
+
+13)LOGICAL OPERATORS
+
+AND(&&), OR(||) AND NOT(!)
+
+AND(&&)
+VAL1  VAL2  VALUE
+1       1       1
+1       0       0
+0       1       0
+0       0       0
+
+OR(||)
+VAL1  VAL2  VALUE
+1       1       1
+1       0       1
+0       1       1
+0       0       0
+
+NOT 
+0->1
+1->0
+
+14)PRACTISE QUESTIONS
+1)A "good string" is a string that starts with the letter 'a' & has a length > 3. Write a Program to find if a string is good or not.
+
+apple ->    good string
+bowansns -> not 
+ap ->       not
+
+CODE : 
+let str = "apple" 
+
+// if (str.length>3 && str[0] === 'a') {
+//   console.log("Good string")
+// }else{
+//   console.log("not good string")
+// }
+
+2)let num = 12; 
+
+                                T
+                 F                             T            
+      T                     F                  T
+if((num%3 === 0) && ((num + 1 == 15) || (num-1 == 11))){
+    console.log("SAFE")
+}else{
+
+    console.log("UNSAFE")
+}
+
+
+15)TRUTH AND FALSY :
+Everything in JS is true or false (in boolean context).
+This doesn't mean their value itself is false or true, but they are treated as false or true if taken in boolean context.
+
+->FALSY VALUES 
+false, 0, -0, On (Bigint value), "" (empty string), null, undefined, NaN
+
+->TRUTH VALUES : EVERYTHING ELSE, EXCEPT FALSY VALUES .
+
+if(NaN){
+  console.log("IT HAS A TRUE VALUE")
+}else{
+  console.log("IT HAS A FALSE EVALUE")
+}
+
+
+16)SWITCH STATEMENT
+
+->SYNTAX : 
+
+switch(key){
+  case value : 
+
+}
+
+let day = 1
+
+17)PRACTISE QUESTIONS : USE SWITCH STATEMENT TO PRINT THE DAY OF THE WEEK USING A NUMBER VARIABLE 'day' WITH VALUES 1 TO 7. 
+
+CONST DAY = 3

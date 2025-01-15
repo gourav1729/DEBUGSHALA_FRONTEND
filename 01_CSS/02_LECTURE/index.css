@@ -1,0 +1,36 @@
+/* 1)COLOR PROPERTIES */
+/* #first{
+    
+    color: hsl(8, 90%, 63%);
+
+} */
+
+/* 
+1)RGB 
+color : rgb(0, 128, 128);
+
+2)HEX CODE 
+ color: #ff7180;
+
+3)HSL 
+hue staturation lightness
+
+*/
+
+/* 2)BACKGROUND COLOR  */
+
+#first{
+    
+    background-color: hsl(8, 90%, 63%);
+
+}
+
+/* 
+
+
+*/
+
+
+
+
+

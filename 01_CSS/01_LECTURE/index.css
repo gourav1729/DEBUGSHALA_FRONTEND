@@ -1,0 +1,40 @@
+/* LECTUR 1 CSS SELECTOR  */
+
+/* ID SELECTOR  */
+
+#first{
+    color : gray
+
+}
+
+/* CLASS SELECTOR */
+.one{
+
+
+    background-color: aqua;
+}
+
+/* LEMENT SELECTOR */
+
+h1{
+    color: blue
+    
+}
+
+/* COMBINATION */
+
+h2 h1 h3 div{
+
+    color: blue;
+}
+
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0po;
+}
+
+
+
+
+
+
